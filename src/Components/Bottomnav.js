@@ -8,7 +8,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 function Bottomnav () {
     return(
-        <BottomNavigation
+        <BottomNavigation className="bottom-navbar" style={{backgroundColor: '#c9caca'}}
         //   value={value}
         //   onChange={(event, newValue) => {
         //     setValue(newValue);
