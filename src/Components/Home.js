@@ -17,8 +17,8 @@ function Home () {
                     <br/>
                     <br/>
             <h1>Hi, I'm Brendan</h1>
-            <h2>I'm a full stack web developer who enjoys learning and building with new technologies each day. </h2>
-            <h2>Check out some of my projects in the portfolio page</h2>
+            <h3>I'm a full stack web developer who enjoys learning and building with new technologies each day. </h3>
+            <h3>Check out some of my projects in the portfolio page</h3>
             </div>
             </Grid>
       
