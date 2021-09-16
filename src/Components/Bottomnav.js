@@ -16,9 +16,9 @@ function Bottomnav () {
         //   showLabels
         //   className={classes.root}
         >
-          <BottomNavigationAction label="Recents" icon={<HomeIcon />} />
-          <BottomNavigationAction label="Favorites" icon={<WorkIcon />} />
-          <BottomNavigationAction label="Nearby" icon={<EmailIcon />} />
+          <BottomNavigationAction label="Recents" href="/" icon={<HomeIcon />} />
+          <BottomNavigationAction label="Favorites" href="/portfolio" icon={<WorkIcon />} />
+          <BottomNavigationAction label="Nearby" href="/contact" icon={<EmailIcon />} />
         </BottomNavigation>
     )
 }

@@ -22,19 +22,19 @@ function NavBar() {
 
                     <Grid item xs={2}>
                     <Nav className="mr-auto">
-                        <Nav.Link style={{textDecoration: 'none', color: '#c9caca', fontSize: 'large', fontWeight: 'bold'}} href="/">About Me</Nav.Link>
+                        <Nav.Link style={{textDecoration: 'none', color: '#c9caca', fontSize: 'large', fontWeight: 'bold'}} href="/about">About Me</Nav.Link>
                     </Nav>
                     </Grid>
 
                     <Grid item xs={2} >
                     <Nav className="mr-auto">
-                        <Nav.Link style={{textDecoration: 'none',color: '#c9caca', fontSize: 'large', fontWeight: 'bold'}} href="/">Portfolio</Nav.Link>
+                        <Nav.Link style={{textDecoration: 'none',color: '#c9caca', fontSize: 'large', fontWeight: 'bold'}} href="/portfolio">Portfolio</Nav.Link>
                     </ Nav>
                     </ Grid>
 
                     <Grid item xs={2} >
                     <Nav className="mr-auto">
-                        <Nav.Link style={{textDecoration: 'none',color: '#c9caca', fontSize: 'large', fontWeight: 'bold'}} href="/">Contact</Nav.Link>
+                        <Nav.Link style={{textDecoration: 'none',color: '#c9caca', fontSize: 'large', fontWeight: 'bold'}} href="/contact">Contact</Nav.Link>
                     </ Nav>
                     </ Grid>
 
