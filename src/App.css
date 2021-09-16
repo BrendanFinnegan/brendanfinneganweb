@@ -38,7 +38,7 @@
 }
 
 .nav-container.container {
-  margin-left: 5%;
+  margin-left: 1%;
 }
 
 nav.color-nav.navbar.navbar-expand.navbar-dark {
@@ -47,7 +47,7 @@ nav.color-nav.navbar.navbar-expand.navbar-dark {
 }
 
 a.mr-auto.navbar-brand {
-  margin-right: 8%;
+  margin-right: 2%;
 }
 
 .bottom-navbar {
