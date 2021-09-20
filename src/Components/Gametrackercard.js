@@ -1,7 +1,7 @@
 import { Card } from "@material-ui/core";
 
 
-function Guitarspacecard () {
+function Gametrackercard () {
 
 
     return(
@@ -15,4 +15,4 @@ function Guitarspacecard () {
     )
 }
 
-export default Guitarspacecard
+export default Gametrackercard
