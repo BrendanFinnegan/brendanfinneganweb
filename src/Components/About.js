@@ -11,7 +11,9 @@ function About () {
         <br/>
         <br/>
         
-        <Grid item xs={12} > </Grid>
+        <Grid item xs={12} > 
+            <h2 style={{color: 'red'}}>Website Under Construction</h2>
+             </Grid>
         <Grid item xs={2} ></Grid>
         <Grid item xs={6} >
         <div style={{textAlign: 'left'}}>

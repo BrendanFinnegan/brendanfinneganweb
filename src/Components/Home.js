@@ -10,7 +10,9 @@ function Home () {
             <br/>
             <br/>
             
-            <Grid item xs={12} > </Grid>
+            <Grid item xs={12} > 
+            <h2 style={{color: 'red'}}>Website Under Construction</h2>
+             </Grid>
             <Grid item xs={3} ></Grid>
             <Grid item xs={5} >
                 <div style={{textAlign: 'left'}}>
