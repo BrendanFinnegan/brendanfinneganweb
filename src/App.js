@@ -7,17 +7,17 @@ import NavBar from './Components/NavBar';
 import Contact from './Components/Contact';
 import About from './Components/About';
 import Portfolio from './Components/Portfolio';
-
+import Grid from '@material-ui/core/Grid'
 
 
 function App() {
   return (
     <div className="App">
+      <Grid container>
+        {/* <Grid item xs={12} >
        <NavBar />
-      {/* <header className="App-header">
-        <img src='https://i5.walmartimages.com/asr/47b7bd68-bce5-4cb2-b57f-381531f82d9d_1.06ab7077c44dc2bc31e15e916d5e2865.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff' className="App-logo" alt="logo" /> */}
-        
-        
+     </Grid> */}
+     <Grid item xs={12}>
         <Switch>
           
         <Route exact path="/">
@@ -41,8 +41,11 @@ function App() {
 
 
       {/* </header> */}
-
+      </Grid>
+      <Grid item xs={12}>
       <Bottomnav />
+      </Grid>
+      </Grid>
     </div>
   );
 }

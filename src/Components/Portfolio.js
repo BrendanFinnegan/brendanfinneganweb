@@ -14,19 +14,20 @@ function Portfolio () {
  
         
           root: {
-            width: '100%',
+            
             border: 'none', 
             shadow: 'none', 
-            transition: 'none',
+            
             boxShadow: "none",
             topBorder: 'none',
             textAlign: 'center',
-            display: 'block'
+            display: 'block',
+            padding: 'none'
             
           },
           
           heading: {
-              transition: 'none',
+             
             boxShadow: "none",
             color: 'black',
            
@@ -59,10 +60,10 @@ function Portfolio () {
         <Grid item xs={2} ></Grid>
         <Grid item xs={8} >
         <Accordion className={classes.root} style={{backgroundColor:  'rgba(216, 211, 211, 0.973)', transition: 'none', boxShadow: "none" }} >
-        <AccordionSummary className={classes.root} style={{display: 'block'}}>
-        <Typography className={classes.heading} > My Guitar Space </Typography>
+        <AccordionSummary className={classes.root} style={{display: 'flex'}}>
+        <h3 className={classes.heading} > My Guitar Space </h3>
         </AccordionSummary>
-        <AccordionDetails style={{ boxShadow: "none" }} >
+        <AccordionDetails className={classes.root} style={{textAlign: 'left', boxShadow: "none", padding: "none"}} >
         <Guitarspacecard />
         </AccordionDetails>
         </Accordion>
@@ -73,10 +74,10 @@ function Portfolio () {
         <Grid item xs={2} ></Grid>
         <Grid item xs={8} >
         <Accordion className={classes.root} style={{backgroundColor:  'rgba(216, 211, 211, 0.973)', transition: 'none', boxShadow: "none" }} >
-        <AccordionSummary className={classes.root} style={{display: 'block'}}>
-        <Typography className={classes.heading} > Game Tracker </Typography>
+        <AccordionSummary className={classes.root} style={{display: 'flex'}}>
+        <h3 className={classes.heading} > Game Tracker </h3>
         </AccordionSummary>
-        <AccordionDetails style={{ boxShadow: "none" }} >
+        <AccordionDetails className={classes.root} style={{ boxShadow: "none" }} >
         <Gametrackercard />
         </AccordionDetails>
         </Accordion>
@@ -87,10 +88,10 @@ function Portfolio () {
         <Grid item xs={2} ></Grid>
         <Grid item xs={8} >
         <Accordion className={classes.root} style={{backgroundColor:  'rgba(216, 211, 211, 0.973)', transition: 'none', boxShadow: "none" }} >
-        <AccordionSummary className={classes.root} style={{display: 'block'}}>
-        <Typography className={classes.heading} > Diablo 2 Rune App (Coming Soon) </Typography>
+        <AccordionSummary className={classes.root} style={{display: 'flex'}}>
+        <h3 className={classes.heading} > Diablo 2 Rune App (Coming Soon) </h3>
         </AccordionSummary>
-        <AccordionDetails style={{ boxShadow: "none" }} >
+        <AccordionDetails className={classes.root} style={{ boxShadow: "none" }} >
         <Guitarspacecard />
         </AccordionDetails>
         </Accordion>

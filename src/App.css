@@ -1,7 +1,8 @@
 .App {
   text-align: center;
   background-color: rgba(216, 211, 211, 0.973);
-  height: 100vh;
+  height: '90%';
+  min-height: 100vh
 }
 
 .App-logo {
@@ -43,6 +44,7 @@
 nav.color-nav.navbar.navbar-expand.navbar-dark {
   background-color: #212121;
   height: 6rem;
+  
 }
 
 a.mr-auto.navbar-brand {
@@ -55,4 +57,15 @@ a.mr-auto.navbar-brand {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+.link {
+  display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: black
 }
