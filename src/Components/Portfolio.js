@@ -81,7 +81,7 @@ function Portfolio () {
         <AccordionSummary className={classes.root} style={{display: 'flex'}}>
         <h3 className={classes.heading} > Game Tracker </h3>
         </AccordionSummary>
-        <AccordionDetails className={classes.root} style={{ boxShadow: "none" }} >
+        <AccordionDetails className={classes.root} style={{textAlign: 'left' , boxShadow: "none" }} >
         <Gametrackercard />
         </AccordionDetails>
         </Accordion>

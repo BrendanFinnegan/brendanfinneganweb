@@ -2,7 +2,8 @@
   text-align: center;
   background-color: rgba(216, 211, 211, 0.973);
   height: 100%;
-  min-height: 100vh
+  min-height: 100vh;
+  overflow: auto
 }
 
 .App-logo {
@@ -67,5 +68,19 @@ a.mr-auto.navbar-brand {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    color: black
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.no-mh3 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.projcard {
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px #000000;
+  background-color: #ffffff;
+  border: 5px solid #000000;
 }
