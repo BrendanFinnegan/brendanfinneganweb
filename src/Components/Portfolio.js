@@ -49,9 +49,7 @@ function Portfolio () {
 
         <>
         <Grid container>
-        <Grid item xs={12} > 
-            <h2 style={{color: 'red'}}>Website Under Construction</h2>
-             </Grid>
+
              <Grid item xs={12} > 
             <h2 style={{color: 'red'}}>Website Under Construction</h2>
              </Grid>

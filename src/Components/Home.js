@@ -30,7 +30,7 @@ function Home () {
       
             <Grid item xs={2} >
 
-            <img style={{height: '300px', width: '300px', borderRadius: '50%'}}src="https://brendanbucket1988.s3.us-east-2.amazonaws.com/IMG_5587.jpg"/>
+            <img style={{height: '325px', width: '300px', borderRadius: '50%'}}src="https://brendanbucket1988.s3.us-east-2.amazonaws.com/IMG_5587.jpg"/>
             </Grid>
             <Grid item xs={2} ></Grid>
         </Grid>
