@@ -1,6 +1,7 @@
 import { Chip, Grid } from "@material-ui/core"
 import Gametrackercard from "./Gametrackercard"
 import Guitarspacecard from "./Guitarspacecard"
+import Diablocard from "./Diablocard"
 import Typography from '@material-ui/core/Typography';
 import Accordion from '@material-ui/core/Accordion';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
@@ -95,14 +96,14 @@ function Portfolio () {
         <AccordionSummary className={classes.root} style={{display: 'flex'}}>
         <h3 className={classes.heading} > Diablo 2 Rune App (Coming Soon) </h3>
         </AccordionSummary>
-        <AccordionDetails className={classes.root} style={{ boxShadow: "none" }} >
-        <Guitarspacecard />
+        <AccordionDetails className={classes.root}style={{textAlign: 'left' , boxShadow: "none" }} >
+        <Diablocard />
         </AccordionDetails>
         </Accordion>
         
         </Grid>
         <Grid item xs={2} ></Grid>
-
+        <Grid item xs={12}></Grid>
         </Grid>
         </>
     )

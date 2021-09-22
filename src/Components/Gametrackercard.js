@@ -4,13 +4,13 @@ import { Chip, Grid } from "@material-ui/core"
 function Gametrackercard () {
     function herokuPop () {
         window.open(
-            `https://my-guitar-space.herokuapp.com/`,
+            `https://ancient-caverns-65129.herokuapp.com/`,
             '_blank' 
           );
     }
     function gitPop () {
         window.open(
-            `https://github.com/BrendanFinnegan/GuitarApp`,
+            `https://github.com/JackCornblum/GameTracker`,
             '_blank' 
           );
     }
@@ -21,14 +21,14 @@ function Gametrackercard () {
         <Grid container>
         <Grid item xs={12} > 
             <h3 style={{marginLeft: '10px'}}>Synopsis:</h3>
-            <p style={{marginLeft: '10px'}}> My Guitar Space is an app that enables its users to build and maintain a library of songs that they know how to play. As a guitar player myself, I have learned hundreds of songs over my 10+ years of playing, but have never had a user-friendly way to track not only the song itself, but the details of how I particularly like to play it. I built this app to solve that problem.  </p>
-            <p style={{marginLeft: '10px'}}> The app allows users to add new song objects to their own personal song table, and then keep details about the song such as notes, tabs, lyrics, and even a video recording of themselves playing the song.</p>
-            <p style={{marginLeft: '10px'}}> Additionally, the app is integrated with a 3rd party API that enables the user to import song lyrics, as well as search for new songs to add to their library. More detailed information can be found in the ReadMe, on my Github repo. Below is a quick video demonstration, as well as links to my repo and heroku app itself.</p>
+            <p style={{marginLeft: '10px'}}> The Game Tracker app was built for video game enthusiasts. It allows its users to keep a record of video games that they are interested in playing in the future, games that they are currently playing, and games that they have completed in the past. As a fan of video games myself, I was always curious to see a record of all of the games that I've played throughout my past, and review notes and reviews I had for each game. This app tackles that issue.  </p>
+            <p style={{marginLeft: '10px'}}> Game Tracker is integrated with a 3rd party API to enable its users to keyword-search a vast internet database of video games, and then add any of the results to their library. Once a game is in the user's library, they can add comments, ratings, keep track of time spent playing the game, and even find out if the game is on sale at any of the popular game distribution sites. </p>
+            <p style={{marginLeft: '10px'}}> A demonstration video can be found below, as well as the links to both the Heroku app and Github Repo. </p>
             </Grid>
     
             <Grid item xs={12} style={{textAlign: 'center', margin: '0px'}} > 
             {/* <h3 className="no-mh3">Demo Video</h3> */}
-            <iframe src={`https://player.vimeo.com/video/596710549`} width="740" height="460" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen title="Test Embed With Some weird music vimeo added!"></iframe>
+            <iframe src={`https://player.vimeo.com/video/605020416`} width="740" height="460" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen title="Test Embed With Some weird music vimeo added!"></iframe>
                         
             </Grid>
             <Grid item xs={6} style={{textAlign: 'center'}}> 
