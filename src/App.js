@@ -12,12 +12,11 @@ import Grid from '@material-ui/core/Grid'
 
 function App() {
   return (
+    <>
+    <NavBar />
     <div className="App">
-      <Grid container>
-        {/* <Grid item xs={12} >
-       <NavBar />
-     </Grid> */}
-     <Grid item xs={12}>
+
+
         <Switch>
           
         <Route exact path="/">
@@ -40,13 +39,13 @@ function App() {
 
 
 
-      {/* </header> */}
-      </Grid>
-      <Grid item xs={12}>
+
+
+ 
       <Bottomnav />
-      </Grid>
-      </Grid>
+
     </div>
+    </>
   );
 }
 

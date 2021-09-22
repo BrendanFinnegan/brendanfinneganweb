@@ -14,9 +14,9 @@ function NavBar() {
 
     return (
         <>
-            <Navbar className="color-nav" variant="dark" style={{display: 'flex', paddingTop: '15px', height: '2rem', padding: '10px', overflow: 'auto', position: 'fixed', width: '100%'}} >
-            <Grid container style={{position: 'fixed'}} >
-                    <Grid item xs={2} >
+            <Navbar className="color-nav" variant="dark" style={{display: 'flex', paddingTop: '15px', height: '2rem', padding: '10px',  width: '100%', zIndex: '9999'}} >
+            <Grid container >
+                    <Grid item xs={3} >
                     <Navbar.Brand  className="mr-auto" style={{textDecoration: 'none',color: '#c9caca', fontSize: 'large', fontWeight: 'bold', marginLeft: '10px', left: '0', position: 'fixed'}} href="/">Brendan Finnegan</Navbar.Brand>
                     </Grid>
                     
