@@ -15,7 +15,7 @@ function Portfolio () {
  
         
           root: {
-            
+            margin:'0px',
             border: 'none', 
             shadow: 'none', 
             
@@ -23,8 +23,10 @@ function Portfolio () {
             topBorder: 'none',
             textAlign: 'center',
             display: 'block',
-            padding: 'none'
-            
+            padding: 'none',
+            '& .MuiAccordionSummary-content': {
+                margin: '0px'
+            }
           },
           
           heading: {
@@ -63,7 +65,7 @@ function Portfolio () {
         <Grid item xs={2} ></Grid>
         <Grid item xs={8} >
         <Accordion className={classes.root} style={{backgroundColor:  'rgba(216, 211, 211, 0.973)', transition: 'none', boxShadow: "none" }} >
-        <AccordionSummary className={classes.root} style={{display: 'flex'}}>
+        <AccordionSummary className={classes.root} style={{display: 'flex'}} >
         <h3 className={classes.heading} > My Guitar Space </h3>
         </AccordionSummary>
         <AccordionDetails className={classes.root} style={{textAlign: 'left', boxShadow: "none", padding: "none"}} >

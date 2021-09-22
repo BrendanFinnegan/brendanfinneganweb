@@ -84,3 +84,18 @@ a.mr-auto.navbar-brand {
   background-color: #ffffff;
   border: 5px solid #000000;
 }
+
+.accordionSum {
+  margin: 0px;
+  border: 'none'; 
+  box-shadow: "none";
+  text-align: 'center';
+  display: 'block';
+  padding: 'none'
+  
+}
+.accordionSum.MuiAccordionSummary-content {
+  margin: 0px;
+
+  
+}
