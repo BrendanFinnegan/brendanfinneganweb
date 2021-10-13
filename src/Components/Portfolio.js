@@ -94,7 +94,7 @@ function Portfolio () {
         <Grid item xs={8} >
         <Accordion className={classes.root} style={{backgroundColor:  'rgba(216, 211, 211, 0.973)', transition: 'none', boxShadow: "none" }} >
         <AccordionSummary className={classes.root} style={{display: 'flex'}}>
-        <h3 className={classes.heading} > Diablo 2 Rune App (Coming Soon) </h3>
+        <h3 className={classes.heading} > Diablo 2 Rune App </h3>
         </AccordionSummary>
         <AccordionDetails className={classes.root}style={{textAlign: 'left' , boxShadow: "none" }} >
         <Diablocard />
