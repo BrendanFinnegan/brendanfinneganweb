@@ -5,13 +5,13 @@ import Typography from '@material-ui/core/Typography';
 function Diablocard () {
     function herokuPop () {
         window.open(
-            `https://my-guitar-space.herokuapp.com/`,
+            `https://diablo2-rune-app.herokuapp.com/`,
             '_blank' 
           );
     }
     function gitPop () {
         window.open(
-            `https://github.com/BrendanFinnegan/GuitarApp`,
+            `https://github.com/BrendanFinnegan/Diablo2RuneApp  `,
             '_blank' 
           );
     }
@@ -28,9 +28,9 @@ function Diablocard () {
             <p style={{marginLeft: '10px'}}> The app is currently in development. </p>
             </Grid>
     
-            {/* <Grid item xs={12} style={{textAlign: 'center', margin: '0px'}} > 
+            <Grid item xs={12} style={{textAlign: 'center', margin: '0px'}} > 
          
-            <iframe src={`https://player.vimeo.com/video/596710549`} width="740" height="460" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen title="Test Embed With Some weird music vimeo added!"></iframe>
+            <iframe src={`https://player.vimeo.com/video/631226030?h=085ea820bd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479`} width="740" height="460" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen title="Test Embed With Some weird music vimeo added!"></iframe>
                         
             </Grid>
             <Grid item xs={6} style={{textAlign: 'center'}}> 
@@ -38,7 +38,7 @@ function Diablocard () {
             </Grid>
             <Grid item xs={6}  style={{textAlign: 'center'}}> 
             <a className="link" onClick={gitPop}> Github Repo Link</a>
-            </Grid> */}
+            </Grid>
         </Grid>
         </Card>
         </>
