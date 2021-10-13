@@ -7,7 +7,7 @@ function NavBar() {
 
     function resumePop () {
         window.open(
-            `https://brendanbucket1988.s3.us-east-2.amazonaws.com/Brendan+Finnegan+Resume+September+2021.pdf`,
+            `https://brendanbucket1988.s3.us-east-2.amazonaws.com/Brendan+Finnegan+Resume+September+2021+(2).pdf`,
             '_blank' 
           );
     }
