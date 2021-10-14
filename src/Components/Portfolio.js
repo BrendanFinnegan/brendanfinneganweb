@@ -105,6 +105,9 @@ function Portfolio () {
         <Grid item xs={2} ></Grid>
         <Grid item xs={12}></Grid>
         </Grid>
+
+        <br/>
+        <br/>
         </>
     )
 }
